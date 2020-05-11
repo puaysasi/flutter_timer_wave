@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         accentColor: Color.fromRGBO(72, 74, 126, 1),
         brightness: Brightness.dark,
       ),
-      title: 'Flutter Timer',
+      title: 'Flutter Timer ',
       home: BlocProvider(
         create: (context) => TimerBloc(ticker: Ticker()),
         child: Timer(),
@@ -38,7 +38,7 @@ class Timer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Flutter Timer')),
+      appBar: AppBar(title: Text('Flutter Timer 2')),
       body: Stack(
         children: [
           Background(),
